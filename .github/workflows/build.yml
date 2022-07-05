@@ -19,9 +19,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: gradle
-      - name: Add execute permission to gradle wrapper
-        run: chmod +x ./gradlew
       - name: Build with Gradle
-        run: gradlew build
+        run: gradle build
       - name: Test with Gradle
-        run: gradlew test
+        run: gradle test
