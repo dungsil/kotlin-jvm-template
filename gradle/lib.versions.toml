@@ -1,6 +1,6 @@
 [versions]
 kotlin = "1.7.0"
-kotlin-logging = "2.1.20"
+kotlin-logging = "2.1.23"
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
