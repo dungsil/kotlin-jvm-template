@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.7.0"
+kotlin = "1.7.10"
 kotlin-logging = "2.1.23"
 
 [plugins]
